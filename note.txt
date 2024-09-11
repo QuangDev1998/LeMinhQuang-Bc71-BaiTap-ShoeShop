@@ -1,0 +1,51 @@
+---- giới thiệu thư mục ----
+
+tạo lại node_modules : npm intail
+
+node_modules : nơi chứa code của thư viện ( axios, tailwind,...)
+
+public : nơi chứa tài nguyên của trang web ( img, html)
+
+src : nơi tạo component
+
+.gitignore : liệt kê file, folder không được đẩy lên git 
+
+package-lock.json : liệt kê , nhật kí các thư viện đã tải , có thể xóa
+
+package.json : không được xóa, liệt kê các thư viện đang dùng dự án, các config đang dùng 
+
+readme.md : dev viết hướng dẫn sử dụng cho user
+
+--- Gioi Thiệu ---
+JSX : html + js => component
+SPAs : single page aplication ~ 1 file html đại diện cho nhiều page ( home page, login page, register page)
+
+---- Start dự án : npm start 
+---- Stop dự án : ctrl + C 
+
+----- Day 1 -----
+  + Data Binding : đư dữ liệu lên layout 
+  + Event Handling : xử lý event => gắn function ( tham số và không có tham số )
+
+Bài Tập 1 
+  - baitap1 / home page
+  - header
+  - navigation
+  - content
+  - footer
+
+Component 
+  - stateful : class
+  - stateless : function
+
+Bài Tập 3 
+  - index
+  - header
+  - carousel    
+  - wwd
+  - contact
+  - List-item
+     + item x 3
+  - footer
+---- Day 2 -----
++ Props giao tiếp dữ liệu giữa các component ( truyền dữ liệu giữa 2 component )
